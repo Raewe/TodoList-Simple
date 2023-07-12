@@ -1,0 +1,6 @@
+{
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.0.0"
+  }
+}
