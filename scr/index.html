@@ -7,11 +7,36 @@
         <title>Lista De Tarefas</title>
     </head>
     <body>
-        <h2>Lista de Tarefas</h2>
-        <input type="text" name="task" id="task" />
-        <input type="button" id="btnAddTask" value="Adicionar" />
+        <main class="task">
+            <h2 class="task__title">Lista de Tarefas</h2>
 
-        <script src="js/task.js"></script>
-        <script src="js/main.js"></script>
+            <div>
+                <input
+                    type="text"
+                    name="task"
+                    id="task"
+                    class="task__input"
+                    placeholder="Digite uma tarefa..."
+                />
+
+                <ul class="task__list">
+                    <li class="task__item">Comprar um carro</li>
+                    <li class="task__item">
+                        <p>Comprar uma casa</p>
+                        <div class="task__deleteItem">X</div>
+                    </li>
+                </ul>
+
+                <input
+                    type="button"
+                    id="btnAddTask"
+                    class="task__button"
+                    value="Adicionar"
+                />
+            </div>
+
+            <script src="js/task.js"></script>
+            <script src="js/main.js"></script>
+        </main>
     </body>
 </html>

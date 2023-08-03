@@ -7,11 +7,14 @@ class Task {
     adicionar(task) {
         this.taskList.push(task);
     }
+
     remover(id) {
         this.taskList.splice(id, 1);
     }
+
     listar() {
         console.log(this.taskList);
     }
+
     editar() {}
 }
