@@ -9,11 +9,13 @@ class Task {
     }
 
     remover(id) {
-        this.taskList.splice(id, 1);
+        if (id >= 0 && id < this.taskList.length) {
+            this.taskList.splice(id, 1);
+        }
     }
 
     listar() {
-        console.log(this.taskList);
+        return this.taskList;
     }
 
     editar() {}

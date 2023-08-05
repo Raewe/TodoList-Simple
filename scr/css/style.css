@@ -28,7 +28,9 @@
 .task__list {
     margin: 5px 0;
     width: 100%;
+    height: 100px;
     list-style: none;
+    overflow-y: auto;
 }
 
 .task__item {
