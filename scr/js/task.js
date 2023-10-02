@@ -1,3 +1,7 @@
+//TODO: Trocar o nome para inglês
+//TODO: Passar o Nome da Lista pela os parametros, Melhorar os nomes
+//TODO: Uma Lista dentro da outra, como usar o metodo push]
+//TODO: Separar abas por lista, e conseguir modificar o nome da lista com dois clicks 
 class Task {
     constructor() {
         this.taskList = [];

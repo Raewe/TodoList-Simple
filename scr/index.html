@@ -1,37 +1,38 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Lista De Tarefas</title>
-    </head>
-    <body>
-        <main class="task">
-            <h2 class="task__title">Lista de Tarefas</h2>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts-6/css/all.min.css" />
+    <title>Lista De Tarefas</title>
+</head>
+<body>
+    <main class="task">
+        <h2 class="task__title">Lista de Tarefas</h2>
 
-            <div>
-                <input
-                    type="text"
-                    name="task"
-                    id="task"
-                    class="task__input"
-                    placeholder="Digite uma tarefa..."
-                    tabindex="1"
-                />
+        <main class="task__body">
+            <input
+            type="text"
+            name="task"
+            id="task"
+            class="task__input"
+            placeholder="Digite uma tarefa..."
+            tabindex="1"
+            />
 
-                <ul class="task__list" tabindex="2"></ul>
+            <ul class="task__list" tabindex="2"></ul>
 
-                <input
-                    type="button"
-                    id="btnAddTask"
-                    class="task__button"
-                    value="Adicionar"
-                />
-            </div>
-
-            <script src="js/task.js"></script>
-            <script src="js/main.js"></script>
+            <input
+            type="button"
+            id="btnAddTask"
+            class="task__button"
+            value="Adicionar"
+            />
         </main>
-    </body>
+
+        <script src="js/task.js"></script>
+        <script src="js/main.js"></script>
+    </main>
+</body>
 </html>
